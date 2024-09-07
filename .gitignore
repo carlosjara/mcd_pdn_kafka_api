@@ -1,1 +1,9 @@
 .env
+
+#Ignorar los logs de ejercicios libro
+../book_projects/output
+# Ignorar carpetas de logs de Kafka
+../kafka-cluster-fastapi/kafkadata/
+../kafka-cluster-test/kafkadata1/
+../kafka-cluster-test/kafkadata2/
+../kafka-cluster-test/kafkadata3/
